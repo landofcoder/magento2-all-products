@@ -4,7 +4,7 @@
 Module provides listing displaying all products, within limits of root category
 
 ### Features
-* by default listing is located under ../catalog_all/index/index
+* by default listing is located under ../allproducts/index/index
 
 
 ## Prerequisites
@@ -34,7 +34,7 @@ bin/magento setup:upgrade
 
 #### Changing listing url ####
 In order to change url of listing to more user-friendly use native Magento feature - url rewrite.
-As target path should be used controller url - ```catalog_all/index/index```.
+As target path should be used controller url - ```allproducts/index/index```.
 
 
 ## Versioning ##
