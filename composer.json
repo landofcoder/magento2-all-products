@@ -1,0 +1,28 @@
+{
+  "name": "landofcoder/module-all-products-listing",
+  "description": "Module adds listing displaying all products by Landofcoder",
+  "require": {
+  },
+  "type": "magento2-module",
+  "version": "1.0.5",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Lof\\AllProductsListing\\": ""
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ]
+}
